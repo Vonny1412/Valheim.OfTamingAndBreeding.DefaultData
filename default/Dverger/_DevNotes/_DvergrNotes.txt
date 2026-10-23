@@ -1,0 +1,417 @@
+DVERGR - DEVELOPMENT NOTES
+==========================
+
+These notes were used as reference when creating the Mistlands Dvergr data.
+
+
+DVERGR TYPES
+============
+
+Dverger
+  "Dvergr rogue"
+  Biome: Mistlands
+  Combat: Ranged (Arbalest)
+  Max level: 3
+
+DvergerMage
+  "Dvergr mage"
+  Biome: Mistlands
+  More powerful due to magic
+  Max level: 3
+
+  Variants:
+    DvergerMageFire
+      Spells: Fireball, Clusterbomb
+
+    DvergerMageIce
+      Spells: Icebolt, Nova
+
+    DvergerMageSupport
+      Spells: Buff, Heal, Mistile
+
+DvergerAshlands
+  Stronger variant of the Dvergr rogue
+  Max level: 3
+
+
+BIOME TIERS
+===========
+
+Meadows
+-> Black Forest
+-> Swamp
+-> Mountain
+-> Plains
+-> Mistlands
+-> Ashlands
+-> Deep North
+
+
+MEADS
+=====
+
+BarleyWine
+  "Fire resistance barley wine"
+  Fire resistance
+  Tier: Plains
+
+MeadFrostResist
+  "Frost resistance mead"
+  Frost resistance
+  Tier: Swamp
+
+MeadHealthMinor
+  "Minor healing mead"
+  50 health
+  Tier: Black Forest
+
+MeadHealthMedium
+  "Medium healing mead"
+  75 health
+  Tier: Swamp
+
+MeadHealthMajor
+  "Major healing mead"
+  125 health
+  Tier: Mistlands
+
+MeadHealthLingering
+  "Lingering healing mead"
+  +25% health regeneration
+  Tier: Ashlands
+
+MeadStaminaMinor
+  "Minor stamina mead"
+  80 stamina
+  Tier: Black Forest
+
+MeadStaminaMedium
+  "Medium stamina mead"
+  160 stamina
+  Tier: Plains
+
+MeadStaminaLingering
+  "Lingering stamina mead"
+  +25% stamina regeneration
+  Tier: Mistlands
+
+MeadEitrMinor
+  "Minor eitr mead"
+  125 Eitr
+  Tier: Mistlands
+
+MeadEitrLingering
+  "Lingering eitr mead"
+  +25% Eitr regeneration
+  Tier: Ashlands
+
+MeadPoisonResist
+  "Poison resistance mead"
+  Poison resistance
+  Tier: Black Forest
+
+MeadTasty
+  "Tasty mead"
+  -50% health regeneration
+  +100% stamina regeneration
+  Tier: Black Forest
+
+MeadTrollPheromones
+  "Love potion"
+  Increases Troll spawning
+  Sold by The Bog Witch
+
+MeadBzerker
+  "Berserkir mead"
+  Attack, Block and Dodge stamina use: -80%
+  Weak (x1.5) against Slash, Blunt and Pierce damage
+  Tier: Plains
+
+MeadBugRepellent
+  "Anti-sting concoction"
+  Prevents Deathsquito attacks
+  Tier: Plains
+
+MeadSwimmer
+  "Draught of Vananidir"
+  -50% swimming stamina consumption
+  Tier: Swamp
+
+MeadHasty
+  "Tonic of Ratatosk"
+  +15% walking and running speed
+  +7.5% swimming speed
+  Tier: Swamp
+
+MeadStrength
+  "Mead of Troll endurance"
+  +250 carry weight
+  Tier: Swamp
+
+MeadTamer
+  "Brew of animal whispers"
+  x2 taming speed
+  Tier: Mountain
+
+MeadLightfoot
+  "Lightfoot mead"
+  -30% jump stamina cost
+  +20% jump height
+  Tier: Mistlands
+
+
+MISTLANDS FOOD
+==============
+
+Salad
+  "Salad"
+  Ingredients: Jotun puffs, Onion, Cloudberries
+  26 health, 80 stamina
+  3 HP/tick
+  25 minutes
+
+MushroomOmelette
+  "Mushroom omelette"
+  Ingredients: Egg, Jotun puffs
+  28 health, 85 stamina
+  3 HP/tick
+  25 minutes
+
+HoneyGlazedChicken
+  "Honey glazed chicken"
+  Ingredients: Chicken meat, Honey, Jotun puffs
+  80 health, 26 stamina
+  5 HP/tick
+  30 minutes
+
+Mistharesupreme
+  "Misthare supreme"
+  Ingredients: Hare meat, Jotun puffs, Carrot
+  85 health, 28 stamina
+  5 HP/tick
+  25 minutes
+
+SeekerAspic
+  "Seeker aspic"
+  Ingredients: Magecap, Royal jelly, Seeker meat
+  28 health, 14 stamina, 85 Eitr
+  3 HP/tick
+  30 minutes
+
+MagicallyStuffedShroom
+  "Stuffed mushroom"
+  Ingredients: Blood clot, Magecap, Turnip
+  25 health, 12 stamina, 75 Eitr
+  3 HP/tick
+  25 minutes
+
+YggdrasilPorridge
+  "Yggdrasil porridge"
+  Ingredients: Sap, Barley, Royal jelly
+  27 health, 13 stamina, 80 Eitr
+  3 HP/tick
+  25 minutes
+
+CookedHareMeat
+  "Cooked Hare meat"
+  Ingredients: Hare meat
+  60 health, 20 stamina
+  5 HP/tick
+  20 minutes
+
+Meatplatter
+  "Meat platter"
+  Ingredients: Hare meat, Lox meat, Seeker meat
+  80 health, 26 stamina
+  5 HP/tick
+  30 minutes
+
+CookedBugMeat
+  "Cooked seeker meat"
+  Ingredients: Seeker meat
+  60 health, 20 stamina
+  5 HP/tick
+  20 minutes
+
+FishAndBread
+  "Fish 'n' bread"
+  Ingredients: Anglerfish, Bread dough
+  30 health, 90 stamina
+  3 HP/tick
+  30 minutes
+
+
+ASHLANDS FOOD
+=============
+
+ScorchingMedley
+  "Scorching medley"
+  Ingredients: Jotun puffs, Onion, Fiddlehead
+  32 health, 95 stamina
+  4 HP/tick
+  25 minutes
+
+MarinatedGreens
+  "Marinated greens"
+  Ingredients: Sap, Magecap, Fiddlehead, Smoke puff
+  32 health, 16 stamina, 95 Eitr
+  4 HP/tick
+  30 minutes
+
+SparklingShroomshake
+  "Sparkling shroomshake"
+  Ingredients: Sap, Vineberry cluster, Smoke puff, Magecap
+  30 health, 15 stamina, 90 Eitr
+  4 HP/tick
+  25 minutes
+
+SizzlingBerryBroth
+  "Sizzling berry broth"
+  Ingredients: Sap, Fiddlehead, Vineberry cluster
+  28 health, 14 stamina, 85 Eitr
+  4 HP/tick
+  25 minutes
+
+
+INGREDIENT SOURCES
+==================
+
+Royal jelly
+  Seeker brood (Mistlands)
+
+Seeker meat
+  Seeker and Seeker Soldier; strong enemies (Mistlands)
+
+Jotun puffs
+  Gathered and cultivated (Mistlands)
+
+Magecap
+  Gathered and cultivated (Mistlands)
+
+Onion
+  Cultivated (Mountains)
+
+Carrot
+  Cultivated (Black Forest)
+
+Cloudberries
+  Gathered (Plains)
+
+Barley
+  Cultivated (Plains)
+
+Egg
+  Chickens; purchasable after Yagluth is defeated
+
+Chicken meat
+  Chickens
+
+Honey
+  Meadows; very easy to obtain
+
+Hare meat
+  Hare; easy to obtain (Mistlands)
+
+Blood clot
+  Ticks; minions of Gjall (Mistlands)
+  Gjall are strong enemies
+
+
+FOOD RANKING BY BIOME
+=====================
+
+Best mix of food items by biome tier, ranked by combined health and stamina.
+
+Meadows
+  1. Cooked deer meat
+  2. Honey
+  3. Cooked boar meat
+  4. Grilled neck tail
+  5. Mushroom
+  6. Raspberries
+
+Black Forest
+  1. Carrot soup
+  2. Deer stew
+  3. Queen's jam
+  4. Minced meat sauce
+  5. Cooked deer meat
+  6. Boar jerky
+  7. Honey
+
+Swamp
+  1. Serpent stew and Cooked serpent meat
+  2. Sausages
+  3. Turnip stew
+  4. Black soup
+  5. Muckshake
+  6. Carrot soup
+  7. Cooked fish / Deer stew
+  8. Queen's jam
+
+Mountain
+  1. Serpent stew and Cooked serpent meat
+  2. Eyescream
+  3. Wolf skewer
+  4. Onion soup
+  5. Turnip stew
+  6. Sausages
+  7. Black soup
+  8. Wolf jerky
+
+Plains
+  1. Serpent stew
+  2. Blood pudding
+  3. Lox meat pie
+  4. Bread
+  5. Fish wraps
+  6. Eyescream
+  7. Wolf skewer
+  8. Onion soup
+
+Mistlands
+  1. Fish 'n' bread
+  2. Misthare supreme
+  3. Mushroom omelette
+  4. Honey glazed chicken
+  5. Meat platter
+  6. Serpent stew
+  7. Salad
+
+Ashlands
+  1. Piquant pie
+  2. Roasted crust pie
+  3. Mashed meat
+  4. Scorching medley
+  5. Fiery svinstew
+  6. Spicy marmalade
+  7. Cooked bonemaw meat
+
+
+FINAL DVERGR FOOD VALUES
+========================
+
+Dvergr Rogue
+
+  MeadTasty (Tasty mead)    0.2
+    Very cheap
+
+  MeadStaminaLingering      1
+  CookedHareMeat            1
+  MushroomOmelette          1
+  Meatplatter               1.5
+  FishAndBread              2
+
+
+Dvergr Mage
+
+  MeadTasty (Tasty mead)    0.2
+    Very cheap
+
+  MeadEitrMinor             1
+  Salad                     1
+  MushroomOmelette          1
+  YggdrasilPorridge         1.5
+  SeekerAspic               2
+
+

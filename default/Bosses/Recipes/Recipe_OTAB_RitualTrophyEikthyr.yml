@@ -1,0 +1,11 @@
+Item: OTAB_RitualTrophyEikthyr
+Amount: 1
+CraftingStation: piece_workbench
+MinStationLevel: 1
+Requirements:
+  - Prefab: TrophyEikthyr
+    Amount: 1
+    AmountPerLevel: 0
+  - Prefab: TrophyDeer
+    Amount: 2
+    AmountPerLevel: 0

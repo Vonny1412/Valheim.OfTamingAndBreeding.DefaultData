@@ -1,0 +1,51 @@
+Character:
+  Group: 'deathsquito'
+  GroupWhenTamed:
+  FactionWhenTamed: #PlainsMonsters
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+MonsterAI:
+  ConsumeItems:
+    - Prefab: Bloodbag
+      FedDurationFactor: 1
+  ConsumeRandomItem:
+  ConsumeRange: 1
+  ConsumeSearchRange: 20
+  ConsumeSearchInterval: 10
+  ConsumeAnimation: 'Attack'
+  TamedIdleNearSpawn: true
+Tameable:
+  FeedingDisabled: 
+  TamingDisabled: 
+  FedDuration: 600
+  TamingTime: 1800
+  Commandable: false
+  PetCommandText: 
+  PetAnswerText: 
+  RequireGlobalKey:
+Procreation:
+  UpdateInterval: 30
+  TotalCheckRange: 10
+  Partner:
+    - Deathsquito
+  PartnerCheckRange: 2
+  RequiredLovePoints: 3
+  PregnancyChance: 0.33
+  PregnancyDuration: 60
+  SpawnOffset: 0
+  SpawnOffsetMax: 0
+  SpawnRandomDirection: false
+  ProcreateWhileSwimming: false
+  MaxCreatures: 10
+  MaxCreaturesCountPrefabs: 
+    - Deathsquito
+  Offspring:
+    - Prefab: OTAB_DeathsquitoEgg
+      Weight: 1
+      NeedPartner: true
+      NeedPartnerPrefab: 
+      InheritTame: true

@@ -1,0 +1,41 @@
+Clone:
+  From: Ulv
+  Name: $OTAB_enemy_ulv_cub
+  RemoveMonsterAI: false
+  Scale: 0.5
+  RemoveEffects: 
+Character:
+  Group: 'wolf'
+  GroupWhenTamed:
+  FactionWhenTamed: #MountainMonsters
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+MonsterAI:
+  ConsumeItems: []
+  ConsumeRandomItem:
+  ConsumeRange: 
+  ConsumeSearchRange: 
+  ConsumeSearchInterval: 
+  ConsumeAnimation: 
+  TamedIdleNearSpawn: 
+Tameable:
+  FeedingDisabled: 
+  TamingDisabled: 
+  FedDuration: 1200
+  TamingTime: 600
+  Commandable: false
+  PetCommandText: 
+  PetAnswerText: 
+  RequireGlobalKey:
+Growup:
+  GrowTime: 1500
+  InheritTame: true
+  RequireFeeding: 
+  RequireGlobalKey:
+  Grown:
+    - Prefab: Ulv
+      Weight: 1

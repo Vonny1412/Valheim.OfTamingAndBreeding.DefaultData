@@ -1,0 +1,27 @@
+Character:
+  Group: 'lox'
+  GroupWhenTamed:
+  FactionWhenTamed: #PlainsMonsters
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+Tameable:
+  FeedingDisabled: true
+  TamingDisabled: true
+  FedDuration: 
+  TamingTime: 
+  Commandable: false
+  PetCommandText: 
+  PetAnswerText: 
+  RequireGlobalKey:
+Growup:
+  GrowTime: 6000
+  InheritTame: true
+  RequireFeeding:
+  RequireGlobalKey:
+  Grown:
+    - Prefab: Lox
+      Weight: 1

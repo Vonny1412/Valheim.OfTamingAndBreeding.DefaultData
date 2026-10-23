@@ -1,0 +1,25 @@
+Item: 
+  MaxStackSize: 1
+  MaxQuality: 1
+  ScaleByQuality:
+  ScaleWeightByQuality:
+EggGrow:
+  GrowTime: 3600
+  UpdateInterval: 5
+  RequireNearbyFire: false
+  RequireUnderRoof: false
+  RequireCoverPercentige: 0
+  RequireAnyBiome: 
+  RequireLiquid: 
+  RequireGlobalKey: 
+  Grown:
+    - Prefab: Hatchling
+      RequireGlobalKey: 
+      Weight: 66
+      Tamed: true
+      ShowHatchEffect: true
+    - Prefab: PowderedDragonEgg
+      RequireGlobalKey: 
+      Weight: 33
+      Tamed: true
+      ShowHatchEffect: true

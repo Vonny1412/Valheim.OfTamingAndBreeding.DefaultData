@@ -1,0 +1,66 @@
+Character:
+  Group: 'serpent'
+  GroupWhenTamed:
+  FactionWhenTamed: #SeaMonsters
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+MonsterAI:
+  ConsumeItems:
+  - Prefab: NeckTail
+    FedDurationFactor: 0.5
+  - Prefab: FishRaw
+    FedDurationFactor: 1
+  - Prefab: RawMeat
+    FedDurationFactor: 1.5
+  - Prefab: DeerMeat
+    FedDurationFactor: 1.5
+  - Prefab: WolfMeat
+    FedDurationFactor: 1.5
+  - Prefab: BjornMeat
+    FedDurationFactor: 2
+  - Prefab: LoxMeat
+    FedDurationFactor: 2
+  - Prefab: BugMeat
+    FedDurationFactor: 2
+  ConsumeRandomItem:
+  ConsumeRange: 4
+  ConsumeSearchRange: 20
+  ConsumeSearchInterval: 10
+  ConsumeAnimation: 'Bite'
+  TamedIdleNearSpawn: true
+Tameable:
+  FeedingDisabled: 
+  TamingDisabled: 
+  FedDuration: 300
+  TamingTime: 1800
+  Commandable: false
+  PetCommandText: 
+  PetAnswerText: 
+  RequireGlobalKey:
+Procreation:
+  UpdateInterval: 30
+  TotalCheckRange: 20
+  Partner:
+    - Serpent
+  PartnerCheckRange: 8
+  RequiredLovePoints: 4
+  PregnancyChance: 0.33
+  PregnancyDuration: 120
+  SpawnOffset: 2
+  SpawnOffsetMax: 0
+  SpawnRandomDirection: false
+  ProcreateWhileSwimming: true
+  MaxCreatures: 4
+  MaxCreaturesCountPrefabs: 
+    - Serpent
+    - OTAB_Serpent_spawn
+  Offspring:
+    - Prefab: OTAB_SerpentEgg
+      Weight: 1
+      NeedPartner: true
+      NeedPartnerPrefab: 
+      InheritTame: true

@@ -1,0 +1,27 @@
+Character:
+  Group: 'golem'
+  GroupWhenTamed:
+  FactionWhenTamed: #ForestMonsters
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+MonsterAI:
+  ConsumeItems: []
+  ConsumeRandomItem:
+  ConsumeRange: 2
+  ConsumeSearchRange: 20
+  ConsumeSearchInterval: 60
+  ConsumeAnimation: 
+  TamedIdleNearSpawn: true
+Tameable:
+  FeedingDisabled: true
+  TamingDisabled: true
+  FedDuration: 
+  TamingTime: 
+  Commandable: false
+  PetCommandText: 
+  PetAnswerText: 
+  RequireGlobalKey:

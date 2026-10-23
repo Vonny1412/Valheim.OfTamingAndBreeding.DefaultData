@@ -1,0 +1,61 @@
+# this is the version that appears in bear caves in black forest since valheim 1.0
+Character:
+  Group: 'bjorn'
+  GroupWhenTamed:
+  FactionWhenTamed: #ForestMonsters
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+MonsterAI:
+  ConsumeItems:
+    - Prefab: QueenBee
+      FedDurationFactor: 5
+    - Prefab: FishRaw
+      FedDurationFactor: 1
+    - Prefab: Honey
+      FedDurationFactor: 0
+    - Prefab: Blueberries
+      FedDurationFactor: 0
+  ConsumeRandomItem:
+  ConsumeRange: 4
+  ConsumeSearchRange: 10
+  ConsumeSearchInterval: 10
+  ConsumeAnimation: 
+  TamedIdleNearSpawn: 
+Tameable:
+  FeedingDisabled: 
+  TamingDisabled: 
+  FedDuration: 300
+  TamingTime: 1800
+  Commandable: true
+  PetCommandText: 
+  PetAnswerText: 
+  RequireGlobalKey:
+Procreation:          # values like vanilla lox
+  UpdateInterval: 60
+  TotalCheckRange: 20
+  Partner:
+    - Bjorn
+    - Bjorn_sleeping
+  PartnerCheckRange: 8
+  RequiredLovePoints: 4
+  PregnancyChance: 0.33
+  PregnancyDuration: 120
+  SpawnOffset: 2
+  SpawnOffsetMax: 0
+  SpawnRandomDirection: false
+  ProcreateWhileSwimming: false
+  MaxCreatures: 4
+  MaxCreaturesCountPrefabs: 
+    - Bjorn
+    - Bjorn_sleeping
+    - OTAB_Bjorn_cub
+  Offspring:
+    - Prefab: OTAB_Bjorn_cub
+      Weight: 1
+      NeedPartner: true
+      NeedPartnerPrefab: 
+      InheritTame: true

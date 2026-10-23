@@ -1,0 +1,11 @@
+Item: OTAB_RitualTrophyGrowth
+Amount: 1
+CraftingStation: piece_workbench
+MinStationLevel: 1
+Requirements:
+  - Prefab: TrophyGrowth
+    Amount: 1
+    AmountPerLevel: 0
+  - Prefab: Tar
+    Amount: 5
+    AmountPerLevel: 0

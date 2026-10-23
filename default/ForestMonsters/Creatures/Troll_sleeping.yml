@@ -1,0 +1,34 @@
+# version of trolls inside troll caves
+Character:
+  Group: 'troll'
+  GroupWhenTamed:
+  FactionWhenTamed: #ForestMonsters
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+MonsterAI:
+  ConsumeItems:
+    - Prefab: Entrails
+      FedDurationFactor: 1
+    - Prefab: BoneFragments
+      FedDurationFactor: 0
+    - Prefab: Pukeberries
+      FedDurationFactor: 0
+  ConsumeRandomItem:
+  ConsumeRange: 4
+  ConsumeSearchRange: 20
+  ConsumeSearchInterval: 30
+  ConsumeAnimation: 'Idle_oooh a piece of Candy'
+  TamedIdleNearSpawn: 
+Tameable:
+  FeedingDisabled: 
+  TamingDisabled: 
+  FedDuration: 300
+  TamingTime: 1800
+  Commandable: true
+  PetCommandText: 
+  PetAnswerText: 
+  RequireGlobalKey: 

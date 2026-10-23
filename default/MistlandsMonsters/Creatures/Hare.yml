@@ -1,0 +1,58 @@
+Character:
+  Group: 'hare'
+  GroupWhenTamed:
+  FactionWhenTamed: #MistlandsMonsters
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Never
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+AnimalAI:
+  ConsumeItems:
+    - Prefab: Barley
+      FedDurationFactor: 1
+    - Prefab: Flax
+      FedDurationFactor: 1
+    - Prefab: Cloudberry
+      FedDurationFactor: 1
+    - Prefab: MushroomJotunPuffs
+      FedDurationFactor: 1.5
+    - Prefab: Carrot
+      FedDurationFactor: 1.5
+  ConsumeRandomItem:
+  ConsumeRange: 1.0
+  ConsumeSearchRange: 10
+  ConsumeSearchInterval: 10
+  ConsumeAnimation: 'Idle Eating'
+  TamedIdleNearSpawn: 
+Tameable:
+  FeedingDisabled: 
+  TamingDisabled: 
+  FedDuration: 600
+  TamingTime: 1800
+  Commandable: false
+  PetCommandText: 
+  PetAnswerText: 
+  RequireGlobalKey:
+Procreation:
+  UpdateInterval: 30
+  TotalCheckRange: 10
+  Partner:
+    - Hare
+  PartnerCheckRange: 3
+  RequiredLovePoints: 3
+  PregnancyChance: 0.33
+  PregnancyDuration: 60
+  SpawnOffset: 1
+  SpawnOffsetMax: 0
+  SpawnRandomDirection: false
+  ProcreateWhileSwimming: false
+  MaxCreatures: 5
+  MaxCreaturesCountPrefabs: 
+  Offspring:
+    - Prefab: OTAB_Leveret
+      Weight: 1
+      NeedPartner: true
+      NeedPartnerPrefab: 
+      InheritTame: true

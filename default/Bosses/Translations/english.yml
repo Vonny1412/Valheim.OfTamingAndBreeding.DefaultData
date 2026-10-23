@@ -1,0 +1,30 @@
+Language: English
+Translations:
+  OTAB_enemy_MiniEikthyr: Calm Eikthyr
+  OTAB_enemy_MiniElder: Calm Elder
+  OTAB_enemy_MiniBonemass: Calm Bonemass
+  OTAB_enemy_MiniModer: Calm Moder
+  OTAB_enemy_MiniYagluth: Calm Yagluth
+  OTAB_enemy_MiniSeekerQueen: Calm Queen
+  OTAB_enemy_MiniFader: Calm Fader
+  OTAB_item_ritual_trophy_eikthyr: Waking Trophy of Eikthyr
+  OTAB_item_ritual_trophy_eikthyr_description: Distant thunder echoes softly between the antlers.
+  OTAB_item_ritual_trophy_elder: Waking Trophy of The Elder
+  OTAB_item_ritual_trophy_elder_description: New life takes hold within the ancient dead wood.
+  OTAB_item_ritual_trophy_bonemass: Waking Trophy of Bonemass
+  OTAB_item_ritual_trophy_bonemass_description: Bones and foul matter slowly bind together around a nascent form.
+  OTAB_item_ritual_trophy_dragonqueen: Waking Trophy of Moder
+  OTAB_item_ritual_trophy_dragonqueen_description: A cold breath seeps from beneath the lifeless scales.
+  OTAB_item_ritual_trophy_goblinking: Waking Trophy of Yagluth
+  OTAB_item_ritual_trophy_goblinking_description: A dim glow pulses deep within the crownless remains.
+  OTAB_item_ritual_trophy_seekerqueen: Waking Trophy of the Queen
+  OTAB_item_ritual_trophy_seekerqueen_description: Faint scratching can be heard from within the fallen monarch.
+  OTAB_item_ritual_trophy_fader: Waking Trophy of Fader
+  OTAB_item_ritual_trophy_fader_description: The Emerald Flame casts a feeble glow from within.
+  OTAB_pet_answer_eikthyr: lowers his antlers
+  OTAB_pet_answer_elder: creaks and slowly bends his branches
+  OTAB_pet_answer_bonemass: ripples with a low gurgle
+  OTAB_pet_answer_moder: lowers her head toward you
+  OTAB_pet_answer_yagluth: raises his skull with ancient pride
+  OTAB_pet_answer_queen: folds her limbs into regal stillness
+  OTAB_pet_answer_fader: exhales with a deep rumble

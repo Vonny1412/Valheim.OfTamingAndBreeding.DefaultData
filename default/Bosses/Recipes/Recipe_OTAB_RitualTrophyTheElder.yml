@@ -1,0 +1,11 @@
+Item: OTAB_RitualTrophyTheElder
+Amount: 1
+CraftingStation: piece_workbench
+MinStationLevel: 1
+Requirements:
+  - Prefab: TrophyTheElder
+    Amount: 1
+    AmountPerLevel: 0
+  - Prefab: AncientSeed
+    Amount: 3
+    AmountPerLevel: 0

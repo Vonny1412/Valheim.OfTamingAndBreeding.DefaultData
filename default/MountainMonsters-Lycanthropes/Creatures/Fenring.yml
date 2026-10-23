@@ -1,0 +1,56 @@
+Character:
+  Group: 'wolf'
+  GroupWhenTamed:
+  FactionWhenTamed: #MountainMonsters
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+MonsterAI:
+  ConsumeItems:
+    - Prefab: LoxMeat
+      FedDurationFactor: 2
+    - Prefab: BjornMeat
+      FedDurationFactor: 1
+  ConsumeRandomItem:
+  ConsumeRange: 1.4
+  ConsumeSearchRange: 10
+  ConsumeSearchInterval: 10
+  ConsumeAnimation: 'BiteAttack'
+  TamedIdleNearSpawn: 
+Tameable:
+  FeedingDisabled: 
+  TamingDisabled: 
+  FedDuration: 600
+  TamingTime: 1800
+  Commandable: true
+  PetCommandText: 
+  PetAnswerText: 
+  RequireGlobalKey:
+Procreation:
+  UpdateInterval: 30
+  TotalCheckRange: 10
+  Partner:
+    - Fenring
+  PartnerCheckRange: 4
+  RequiredLovePoints: 3
+  PregnancyChance: 0.33
+  PregnancyDuration: 60
+  SpawnOffset: 1
+  SpawnOffsetMax: 0
+  SpawnRandomDirection: false
+  ProcreateWhileSwimming: false
+  MaxCreatures: 4
+  MaxCreaturesCountPrefabs: 
+    - Fenring
+    - Ulv
+    - OTAB_Ulv_cub
+    - Fenring_Cultist
+  Offspring:
+    - Prefab: OTAB_Ulv_cub
+      Weight: 1
+      NeedPartner: true
+      NeedPartnerPrefab: 
+      InheritTame: true

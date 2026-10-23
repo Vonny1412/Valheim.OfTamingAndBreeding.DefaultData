@@ -1,0 +1,43 @@
+Clone:
+  From: Abomination
+  Name: $OTAB_enemy_growing_abomination
+  RemoveMonsterAI: false
+  Scale: 0.25
+  RemoveEffects: 
+Character:
+  Group: 'abomination'
+  GroupWhenTamed:
+  FactionWhenTamed: #Undead
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+MonsterAI:
+  ConsumeItems: []
+  ConsumeRandomItem:
+  ConsumeRange: 0.5
+  ConsumeSearchRange: 12.5
+  ConsumeSearchInterval: 10
+  ConsumeAnimation: 'Attack Ground Slam'
+  TamedIdleNearSpawn: true
+Tameable:
+  FeedingDisabled: true
+  TamingDisabled: true
+  FedDuration: 
+  TamingTime: 
+  Commandable: false
+  PetCommandText: 
+  PetAnswerText: 
+  RequireGlobalKey: 
+Growup:
+  GrowTime: 1800
+  InheritTame: true
+  RequireFeeding:
+  RequireGlobalKey:
+  Grown:
+  - Prefab: OTAB_GrowingAbomination1
+    Weight: 2
+  - Prefab: OTAB_GrowingAbomination2
+    Weight: 1

@@ -1,0 +1,11 @@
+Item: OTAB_RitualTrophyDragonQueen
+Amount: 1
+CraftingStation: piece_workbench
+MinStationLevel: 1
+Requirements:
+  - Prefab: TrophyDragonQueen
+    Amount: 1
+    AmountPerLevel: 0
+  - Prefab: DragonEgg
+    Amount: 3
+    AmountPerLevel: 0

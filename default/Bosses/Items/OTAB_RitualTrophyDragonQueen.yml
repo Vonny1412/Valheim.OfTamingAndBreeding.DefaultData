@@ -1,0 +1,44 @@
+Clone:
+  From: TrophyDragonQueen
+  VisualFrom: 
+  Name: $OTAB_item_ritual_trophy_dragonqueen
+  Description: $OTAB_item_ritual_trophy_dragonqueen_description
+  ItemType: Misc
+  Scale: 0.5
+  Weight: 10
+  Teleportable: true
+  CustomIcon: 'OTAB_RitualTrophyDragonQueen'
+  ItemHueShift: 
+  ItemSaturationShift: 
+  ItemBrightnessShift: 
+  LightsHueShift: 
+  LightsSaturationShift: 
+  LightsScale: 
+  AttachedSprite: 'OTAB_RitualSymbol'
+  AttachedSpriteScale: 2
+  AttachedSpriteOffset:
+Item:
+  MaxStackSize: 1
+  MaxQuality: 1
+  ScaleByQuality: 
+  ScaleWeightByQuality: 
+EggGrow:
+  GrowTime: 0
+  UpdateInterval: 5
+  RequireNearbyFire: false
+  RequireUnderRoof: false
+  RequireCoverPercentige: 0
+  RequireAnyBiome: 
+  RequireLiquid: 
+  RequireGlobalKey: defeated_dragon
+  Grown:
+    - Prefab: OTAB_RitualTrophyDragonQueen
+      RequireGlobalKey: 
+      Weight: 99
+      Tamed: true
+      ShowHatchEffect: false
+    - Prefab: OTAB_MiniModer
+      RequireGlobalKey: 
+      Weight: 1
+      Tamed: true
+      ShowHatchEffect: true

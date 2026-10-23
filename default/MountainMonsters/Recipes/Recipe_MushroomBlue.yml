@@ -1,0 +1,11 @@
+Item: MushroomBlue
+Amount: 1
+CraftingStation: piece_cauldron
+MinStationLevel: 1
+Requirements:
+  - Prefab: MushroomYellow
+    Amount: 1
+    AmountPerLevel: 0
+  - Prefab: FreezeGland
+    Amount: 1
+    AmountPerLevel: 0

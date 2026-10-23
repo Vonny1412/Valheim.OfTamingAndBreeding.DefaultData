@@ -1,0 +1,19 @@
+Character:
+  Group: 'charred'
+  GroupWhenTamed:
+  FactionWhenTamed: #Demon
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+Tameable:
+  FeedingDisabled: true
+  TamingDisabled: true
+  FedDuration: 
+  TamingTime: 
+  Commandable: false
+  PetCommandText: 
+  PetAnswerText: 
+  RequireGlobalKey:

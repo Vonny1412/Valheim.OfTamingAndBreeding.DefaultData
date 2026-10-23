@@ -1,0 +1,30 @@
+Language: German
+Translations:
+  OTAB_enemy_MiniEikthyr: Friedlicher Eikthyr
+  OTAB_enemy_MiniElder: Friedlicher Uralter
+  OTAB_enemy_MiniBonemass: Friedliche Knochenwanst
+  OTAB_enemy_MiniModer: Friedliche Moder
+  OTAB_enemy_MiniYagluth: Friedlicher Yagluth
+  OTAB_enemy_MiniSeekerQueen: Friedliche Königin
+  OTAB_enemy_MiniFader: Friedlicher Fader
+  OTAB_item_ritual_trophy_eikthyr: Erwachende Trophäe von Eikthyr
+  OTAB_item_ritual_trophy_eikthyr_description: Ferner Donner hallt leise zwischen den Geweihen wider.
+  OTAB_item_ritual_trophy_elder: Erwachende Trophäe des Uralten
+  OTAB_item_ritual_trophy_elder_description: Neues Leben fasst im uralten, toten Holz Fuß.
+  OTAB_item_ritual_trophy_bonemass: Erwachende Trophäe von Knochenwanst
+  OTAB_item_ritual_trophy_bonemass_description: Knochen und faulige Masse verbinden sich langsam zu etwas Neuem.
+  OTAB_item_ritual_trophy_dragonqueen: Erwachende Trophäe von Moder
+  OTAB_item_ritual_trophy_dragonqueen_description: Ein kalter Hauch dringt unter den leblosen Schuppen hervor.
+  OTAB_item_ritual_trophy_goblinking: Erwachende Trophäe von Yagluth
+  OTAB_item_ritual_trophy_goblinking_description: Ein schwaches Glühen pulsiert tief in den kronenlosen Überresten.
+  OTAB_item_ritual_trophy_seekerqueen: Erwachende Trophäe der Königin
+  OTAB_item_ritual_trophy_seekerqueen_description: Aus dem Inneren der gefallenen Monarchin ist leises Kratzen zu hören.
+  OTAB_item_ritual_trophy_fader: Erwachende Trophäe von Fader
+  OTAB_item_ritual_trophy_fader_description: Die Smaragdflamme wirft aus dem Inneren einen schwachen Schein.
+  OTAB_pet_answer_eikthyr: senkt sein Geweih
+  OTAB_pet_answer_elder: knarrt und neigt langsam seine Äste
+  OTAB_pet_answer_bonemass: wabert mit einem tiefen Glucksen
+  OTAB_pet_answer_moder: senkt ihren Kopf zu dir
+  OTAB_pet_answer_yagluth: erhebt stolz seinen uralten Schädel
+  OTAB_pet_answer_queen: legt ihre Glieder würdevoll zusammen
+  OTAB_pet_answer_fader: atmet mit einem tiefen Grollen aus

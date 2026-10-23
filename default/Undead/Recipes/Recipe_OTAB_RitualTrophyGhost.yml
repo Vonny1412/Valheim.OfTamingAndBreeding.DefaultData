@@ -1,0 +1,11 @@
+Item: OTAB_RitualTrophyGhost
+Amount: 1
+CraftingStation: piece_workbench
+MinStationLevel: 1
+Requirements:
+  - Prefab: TrophyGhost
+    Amount: 1
+    AmountPerLevel: 0
+  - Prefab: Ectoplasm
+    Amount: 3
+    AmountPerLevel: 0

@@ -1,0 +1,44 @@
+Clone:
+  From: TrophyDraugrElite
+  VisualFrom: 
+  Name: $OTAB_item_ritual_trophy_draugr_elite
+  Description: $OTAB_item_ritual_trophy_draugr_elite_description
+  ItemType: Misc
+  Scale: 1
+  Weight: 20
+  Teleportable: true
+  CustomIcon: 'OTAB_RitualTrophyDraugrElite'
+  ItemHueShift: 
+  ItemSaturationShift: 
+  ItemBrightnessShift: 
+  LightsHueShift: 
+  LightsSaturationShift: 
+  LightsScale: 
+  AttachedSprite: 'OTAB_RitualSymbol'
+  AttachedSpriteScale: 1.5
+  AttachedSpriteOffset:
+Item:
+  MaxStackSize: 1
+  MaxQuality: 3
+  ScaleByQuality: 
+  ScaleWeightByQuality: 1.0
+EggGrow:
+  GrowTime: 0
+  UpdateInterval: 5
+  RequireNearbyFire: false
+  RequireUnderRoof: false
+  RequireCoverPercentige: 0
+  RequireAnyBiome: 
+  RequireLiquid: 
+  RequireGlobalKey: 
+  Grown:
+    - Prefab: OTAB_RitualTrophyDraugrElite
+      RequireGlobalKey: 
+      Weight: 99
+      Tamed: true
+      ShowHatchEffect: false
+    - Prefab: Draugr_Elite
+      RequireGlobalKey: 
+      Weight: 1
+      Tamed: true
+      ShowHatchEffect: true

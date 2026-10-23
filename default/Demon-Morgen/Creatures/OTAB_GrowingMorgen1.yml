@@ -1,0 +1,95 @@
+Clone:
+  From: Morgen
+  Name: $OTAB_enemy_growing_morgen
+  RemoveMonsterAI: false
+  Scale: 0.25
+  RemoveEffects: 
+Character:
+  Group: 'morgen'
+  GroupWhenTamed:
+  FactionWhenTamed: #Demon
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+MonsterAI:
+  ConsumeItems: 
+
+    - Prefab: BoneFragments
+      FedDurationFactor: 1.0
+    - Prefab: BoneFragments
+      FedDurationFactor: 1.0
+    - Prefab: BoneFragments
+      FedDurationFactor: 1.0
+
+    - Prefab: Bloodbag
+      FedDurationFactor: 1.0
+    - Prefab: Bloodbag
+      FedDurationFactor: 1.0
+    - Prefab: Bloodbag
+      FedDurationFactor: 1.0
+
+    - Prefab: Entrails
+      FedDurationFactor: 1.0
+    - Prefab: Entrails
+      FedDurationFactor: 1.0
+    - Prefab: Entrails
+      FedDurationFactor: 1.0
+
+    - Prefab: RottenMeat
+      FedDurationFactor: 1.0
+    - Prefab: RottenMeat
+      FedDurationFactor: 1.0
+    - Prefab: RottenMeat
+      FedDurationFactor: 1.0
+
+    - Prefab: AsksvinMeat
+      FedDurationFactor: 1.0
+    - Prefab: AsksvinMeat
+      FedDurationFactor: 1.0
+    - Prefab: AsksvinMeat
+      FedDurationFactor: 1.0
+
+    - Prefab: GiantBloodSack
+      FedDurationFactor: 1.0
+    - Prefab: GiantBloodSack
+      FedDurationFactor: 1.0
+    - Prefab: GiantBloodSack
+      FedDurationFactor: 1.0
+
+    - Prefab: MorgenHeart
+      FedDurationFactor: 1.0
+
+    - Prefab: MorgenSinew
+      FedDurationFactor: 1.0
+
+    - Prefab: Softtissue
+      FedDurationFactor: 1.0
+
+  ConsumeRandomItem: true
+  ConsumeRange: 1
+  ConsumeSearchRange: 15
+  ConsumeSearchInterval: 10
+  ConsumeAnimation: 'Idle Eating'
+  TamedIdleNearSpawn: true
+Tameable:
+  FeedingDisabled: 
+  TamingDisabled: true
+  FedDuration: 90 # some seconds more because of growing interval delay
+  TamingTime: 
+  Commandable: false
+  PetCommandText: 
+  PetAnswerText: 
+  RequireGlobalKey: 
+Growup:
+  GrowTime: 60
+  InheritTame: true
+  RequireFeeding: true
+  RequireGlobalKey:
+  Grown:
+    - Prefab: OTAB_GrowingMorgen1
+      Weight: 9
+    - Prefab: OTAB_GrowingMorgen2
+      Weight: 1

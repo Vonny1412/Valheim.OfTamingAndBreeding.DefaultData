@@ -1,0 +1,29 @@
+Character:
+  Group: 'mistbug'
+  GroupWhenTamed:
+  FactionWhenTamed: #MistlandsMonsters
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+MonsterAI:
+  ConsumeItems: 
+    - Prefab: Sap
+      FedDurationFactor: 1
+  ConsumeRandomItem:
+  ConsumeRange: 2.0
+  ConsumeSearchRange: 10
+  ConsumeSearchInterval: 10
+  ConsumeAnimation: 'Idle Scratch'
+  TamedIdleNearSpawn: 
+Tameable:
+  FeedingDisabled: 
+  TamingDisabled: true
+  FedDuration: 300
+  TamingTime: 
+  Commandable: false
+  PetCommandText: 
+  PetAnswerText: 
+  RequireGlobalKey:

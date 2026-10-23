@@ -1,0 +1,56 @@
+Character:
+  Group: 'neck'
+  GroupWhenTamed:
+  FactionWhenTamed: #ForestMonsters
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+MonsterAI:
+  ConsumeItems:
+    - Prefab: SerpentMeat
+      FedDurationFactor: 3
+    - Prefab: FishRaw
+      FedDurationFactor: 1
+    - Prefab: NeckTail
+      FedDurationFactor: 0.5
+  ConsumeRandomItem:
+  ConsumeRange: 1
+  ConsumeSearchRange: 10
+  ConsumeSearchInterval: 10
+  ConsumeAnimation: 'Armature|ArmatureAction.001'
+  TamedIdleNearSpawn: 
+Tameable:
+  FeedingDisabled: 
+  TamingDisabled: 
+  FedDuration: 600
+  TamingTime: 1800
+  Commandable: false
+  PetCommandText: 
+  PetAnswerText: 
+  RequireGlobalKey:
+Procreation:
+  UpdateInterval: 30
+  TotalCheckRange: 10
+  Partner:
+    - Neck
+  PartnerCheckRange: 3
+  RequiredLovePoints: 3
+  PregnancyChance: 0.33
+  PregnancyDuration: 60
+  SpawnOffset: 0
+  SpawnOffsetMax: 0
+  SpawnRandomDirection: false
+  ProcreateWhileSwimming: true
+  MaxCreatures: 5
+  MaxCreaturesCountPrefabs:
+    - Neck
+    - OTAB_Neck_hatchling
+  Offspring:
+    - Prefab: OTAB_NeckEgg
+      Weight: 1
+      NeedPartner: true
+      NeedPartnerPrefab: 
+      InheritTame: true

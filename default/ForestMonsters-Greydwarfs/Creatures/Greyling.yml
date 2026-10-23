@@ -1,0 +1,29 @@
+Character:
+  Group: 'greydwarf'
+  GroupWhenTamed: 
+  FactionWhenTamed: #ForestMonsters
+  TamedVersusPlayer: Never
+  TamedVersusGroup: WhenFed
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+MonsterAI:
+  ConsumeItems:
+    - Prefab: MushroomYellow
+      FedDurationFactor: 1
+  ConsumeRandomItem:
+  ConsumeRange: 1
+  ConsumeSearchRange: 10
+  ConsumeSearchInterval: 30
+  ConsumeAnimation: 'Throw'
+  TamedIdleNearSpawn: true
+Tameable:
+  FeedingDisabled: 
+  TamingDisabled: 
+  FedDuration: 600
+  TamingTime: 600
+  Commandable: true
+  PetCommandText: 
+  PetAnswerText: 
+  RequireGlobalKey:

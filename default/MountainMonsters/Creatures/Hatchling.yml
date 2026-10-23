@@ -1,0 +1,29 @@
+Character:
+  Group: 'drake'
+  GroupWhenTamed:
+  FactionWhenTamed: #MountainMonsters
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+MonsterAI:
+  ConsumeItems: 
+    - Prefab: MushroomBlue
+      FedDurationFactor: 0
+  ConsumeRandomItem:
+  ConsumeRange: 1
+  ConsumeSearchRange: 20
+  ConsumeSearchInterval: 60
+  ConsumeAnimation: 
+  TamedIdleNearSpawn: true
+Tameable:
+  FeedingDisabled: 
+  TamingDisabled: true
+  FedDuration: 600
+  TamingTime: 
+  Commandable: false
+  PetCommandText: 
+  PetAnswerText: 
+  RequireGlobalKey:

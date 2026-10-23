@@ -1,0 +1,53 @@
+Character:
+  Group: 'mistbug'
+  GroupWhenTamed:
+  FactionWhenTamed: #MistlandsMonsters
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+MonsterAI:
+  ConsumeItems: 
+    - Prefab: Sap
+      FedDurationFactor: 1
+  ConsumeRandomItem:
+  ConsumeRange: 1.0
+  ConsumeSearchRange: 10
+  ConsumeSearchInterval: 10
+  ConsumeAnimation: 'Idle Pincers'
+  TamedIdleNearSpawn: 
+Tameable:
+  FeedingDisabled: 
+  TamingDisabled: true
+  FedDuration: 600
+  TamingTime: 
+  Commandable: false
+  PetCommandText: 
+  PetAnswerText: 
+  RequireGlobalKey:
+Procreation:
+  UpdateInterval: 30
+  TotalCheckRange: 10
+  Partner:
+    - SeekerBrute
+  PartnerCheckRange: 5
+  RequiredLovePoints: 3
+  PregnancyChance: 0.33
+  PregnancyDuration: 60
+  SpawnOffset: 1
+  SpawnOffsetMax: 0
+  SpawnRandomDirection: false
+  ProcreateWhileSwimming: false
+  MaxCreatures: 5
+  MaxCreaturesCountPrefabs: 
+    - SeekerBrood
+    - Seeker
+    - SeekerBrute
+  Offspring:
+    - Prefab: OTAB_SeekerEgg
+      Weight: 1
+      NeedPartner: true
+      NeedPartnerPrefab: 
+      InheritTame: true

@@ -1,0 +1,41 @@
+Clone:
+  From: AsksvinEgg
+  VisualFrom: SeekerEgg
+  Name: $OTAB_item_seeker_egg
+  Description: $OTAB_item_seeker_egg_description
+  ItemType: Misc
+  Scale: 1
+  Weight: 2
+  Teleportable: true
+  CustomIcon: 
+  ItemHueShift: 
+  ItemSaturationShift: 
+  ItemBrightnessShift: 
+  LightsHueShift: 
+  LightsSaturationShift: 
+  LightsScale: 
+  AttachedSprite: 
+  AttachedSpriteScale: 
+  AttachedSpriteOffset:
+Item:
+  MaxStackSize: 10
+  MaxQuality: 3
+  ScaleByQuality: 
+  ScaleWeightByQuality: 
+Floating:
+  WaterLevelOffset: 0.66
+EggGrow:
+  GrowTime: 1800
+  UpdateInterval: 5
+  RequireNearbyFire: true
+  RequireUnderRoof: true
+  RequireCoverPercentige: 0.7
+  RequireAnyBiome: 
+  RequireLiquid: 
+  RequireGlobalKey: 
+  Grown:
+    - Prefab: OTAB_SeekerBrood
+      RequireGlobalKey: 
+      Weight: 1
+      Tamed: true
+      ShowHatchEffect: true

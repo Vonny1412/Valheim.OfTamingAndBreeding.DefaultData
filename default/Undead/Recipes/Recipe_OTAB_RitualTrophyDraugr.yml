@@ -1,0 +1,14 @@
+Item: OTAB_RitualTrophyDraugr
+Amount: 1
+CraftingStation: piece_workbench
+MinStationLevel: 1
+Requirements:
+  - Prefab: TrophyDraugr
+    Amount: 1
+    AmountPerLevel: 1
+  - Prefab: Entrails
+    Amount: 5
+    AmountPerLevel: 10
+  - Prefab: LeatherScraps
+    Amount: 5
+    AmountPerLevel: 10

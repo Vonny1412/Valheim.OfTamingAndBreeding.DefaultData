@@ -1,0 +1,41 @@
+Clone:
+  From: Volture
+  Name: $OTAB_enemy_volture_chick
+  RemoveMonsterAI: true
+  Scale: 0.5
+  RemoveEffects: 
+Character:
+  Group: 'volture'
+  GroupWhenTamed:
+  FactionWhenTamed: #Demon
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+AnimalAI:
+  ConsumeItems: []
+  ConsumeRandomItem:
+  ConsumeRange: 
+  ConsumeSearchRange: 
+  ConsumeSearchInterval: 
+  ConsumeAnimation:
+  TamedIdleNearSpawn: true
+Tameable:
+  FeedingDisabled: true
+  TamingDisabled: true
+  FedDuration: 
+  TamingTime: 
+  Commandable: false
+  PetCommandText: 
+  PetAnswerText: 
+  RequireGlobalKey:
+Growup:
+  GrowTime: 3000
+  InheritTame: true
+  RequireFeeding:
+  RequireGlobalKey:
+  Grown:
+    - Prefab: Volture
+      Weight: 1

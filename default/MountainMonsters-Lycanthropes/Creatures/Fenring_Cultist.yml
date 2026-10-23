@@ -1,0 +1,18 @@
+Character:
+  Group: 'wolf'
+  GroupWhenTamed:
+  FactionWhenTamed: #MountainMonsters
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+MonsterAI:
+  ConsumeItems: []
+  ConsumeRandomItem:
+  ConsumeRange: 
+  ConsumeSearchRange: 
+  ConsumeSearchInterval: 
+  ConsumeAnimation: 
+  TamedIdleNearSpawn: 

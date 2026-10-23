@@ -1,0 +1,43 @@
+Clone:
+  From: StoneGolem
+  Name: $OTAB_enemy_growing_stone_golem
+  RemoveMonsterAI: false
+  Scale: 0.75
+  RemoveEffects: 
+Character:
+  Group: 'golem'
+  GroupWhenTamed:
+  FactionWhenTamed: #ForestMonsters
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+MonsterAI:
+  ConsumeItems: []
+  ConsumeRandomItem:
+  ConsumeRange: 3
+  ConsumeSearchRange: 17.5
+  ConsumeSearchInterval: 10
+  ConsumeAnimation: 
+  TamedIdleNearSpawn: true
+Tameable:
+  FeedingDisabled: true
+  TamingDisabled: true
+  FedDuration: 
+  TamingTime: 
+  Commandable: false
+  PetCommandText: 
+  PetAnswerText: 
+  RequireGlobalKey: 
+Growup:
+  GrowTime: 300
+  InheritTame: true
+  RequireFeeding:
+  RequireGlobalKey:
+  Grown:
+    - Prefab: StoneGolem
+      Weight: 1
+    - Prefab: TrophySGolem
+      Weight: 1

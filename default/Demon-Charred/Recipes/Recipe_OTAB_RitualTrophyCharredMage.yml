@@ -1,0 +1,11 @@
+Item: OTAB_RitualTrophyCharredMage
+Amount: 1
+CraftingStation: piece_workbench
+MinStationLevel: 1
+Requirements:
+  - Prefab: TrophyCharredMage
+    Amount: 1
+    AmountPerLevel: 1
+  - Prefab: CharredBone
+    Amount: 10
+    AmountPerLevel: 10

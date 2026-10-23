@@ -1,0 +1,33 @@
+Clone:
+  From: Deer
+  Name: $OTAB_enemy_fawn
+  RemoveMonsterAI: true
+  Scale: 0.5
+  RemoveEffects: 
+Character:
+  Group: 'deer'
+  GroupWhenTamed:
+  FactionWhenTamed: #ForestMonsters
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+Tameable:
+  FeedingDisabled: true
+  TamingDisabled: true
+  FedDuration: 
+  TamingTime: 
+  Commandable: false
+  PetCommandText: 
+  PetAnswerText: 
+  RequireGlobalKey:
+Growup:
+  GrowTime: 3000
+  InheritTame: true
+  RequireFeeding:
+  RequireGlobalKey:
+  Grown:
+    - Prefab: Deer
+      Weight: 1

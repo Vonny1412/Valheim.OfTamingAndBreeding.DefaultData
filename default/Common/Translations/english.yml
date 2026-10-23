@@ -1,0 +1,16 @@
+Language: English
+Translations:
+  OTAB_key_Season_Fall: "Fall"
+  OTAB_key_Season_Spring: "Spring"
+  OTAB_key_Season_Summer: "Summer"
+  OTAB_key_Season_Winter: "Winter"
+  OTAB_key_defeated_eikthyr: "Defeated Eikthyr"
+  OTAB_key_defeated_dragon: "Defeated Moder"
+  OTAB_key_defeated_goblinking: "Defeated Yagluth"
+  OTAB_key_defeated_gdking: "Defeated The Elder"
+  OTAB_key_defeated_bonemass: "Defeated Bonemass"
+  OTAB_key_defeated_queen: "Defeated The Queen"
+  OTAB_key_defeated_fader: "Defeated Fader"
+  OTAB_command_nudge: Nudge
+  OTAB_command_pat: Pat
+  OTAB_command_touch: Touch

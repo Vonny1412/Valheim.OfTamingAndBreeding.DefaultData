@@ -1,0 +1,31 @@
+Character:
+  Group: 'wolf'
+  GroupWhenTamed:
+  FactionWhenTamed: #MountainMonstersx
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+MonsterAI:
+  ConsumeItems:
+    - Prefab: LoxMeat
+      FedDurationFactor: 2
+    - Prefab: BjornMeat
+      FedDurationFactor: 1
+  ConsumeRandomItem:
+  ConsumeRange: 1.4
+  ConsumeSearchRange: 10
+  ConsumeSearchInterval: 10
+  ConsumeAnimation: 'Idle Sniffing'
+  TamedIdleNearSpawn: 
+Tameable:
+  FeedingDisabled: 
+  TamingDisabled: 
+  FedDuration: 600
+  TamingTime: 1200
+  Commandable: true
+  PetCommandText: 
+  PetAnswerText: 
+  RequireGlobalKey:

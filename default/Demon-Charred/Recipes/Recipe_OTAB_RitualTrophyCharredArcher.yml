@@ -1,0 +1,11 @@
+Item: OTAB_RitualTrophyCharredArcher
+Amount: 1
+CraftingStation: piece_workbench
+MinStationLevel: 1
+Requirements:
+  - Prefab: TrophyCharredArcher
+    Amount: 1
+    AmountPerLevel: 1
+  - Prefab: CharredBone
+    Amount: 10
+    AmountPerLevel: 10

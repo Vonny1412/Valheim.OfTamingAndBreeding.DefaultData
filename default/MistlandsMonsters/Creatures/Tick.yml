@@ -1,0 +1,49 @@
+Character:
+  Group: 'mistbug'
+  GroupWhenTamed:
+  FactionWhenTamed: #MistlandsMonsters
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+MonsterAI:
+  ConsumeItems: 
+    - Prefab: Softtissue
+      FedDurationFactor: 1
+  ConsumeRandomItem:
+  ConsumeRange: 1.0
+  ConsumeSearchRange: 10
+  ConsumeSearchInterval: 10
+  ConsumeAnimation: 'Drain Attack Attached'
+  TamedIdleNearSpawn: 
+Tameable:
+  FeedingDisabled: 
+  TamingDisabled: 
+  FedDuration: 1800               # soft tissue is rare enough
+  TamingTime: 1200
+  Commandable: false
+  PetCommandText: 
+  PetAnswerText: 
+  RequireGlobalKey:
+Procreation:
+  UpdateInterval: 30
+  TotalCheckRange: 0              # self breeding
+  Partner:                        # self breeding
+  PartnerCheckRange: 0            # self breeding
+  RequiredLovePoints: 1
+  PregnancyChance: 0.66           # valheims inverted logic: 34% chance
+  PregnancyDuration: 0            # instant due
+  SpawnOffset: 0
+  SpawnOffsetMax: 0
+  SpawnRandomDirection: false
+  ProcreateWhileSwimming: false
+  MaxCreatures: 0                 # self breeding
+  MaxCreaturesCountPrefabs: 
+  Offspring:
+    - Prefab: OTAB_TickExudate
+      Weight: 1
+      NeedPartner: false         # self breeding
+      NeedPartnerPrefab: 
+      InheritTame: 

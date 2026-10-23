@@ -1,0 +1,35 @@
+Character:
+  Group: 'fuling'
+  GroupWhenTamed: 
+  FactionWhenTamed: #PlainsMonsters
+  TamedVersusPlayer: Never
+  TamedVersusGroup: WhenFed
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+MonsterAI:
+  ConsumeItems:
+    - Prefab: Amber
+      FedDurationFactor: 0.5
+    - Prefab: AmberPearl
+      FedDurationFactor: 1
+    - Prefab: Ruby
+      FedDurationFactor: 2
+    - Prefab: SilverNecklace
+      FedDurationFactor: 3
+  ConsumeRandomItem:
+  ConsumeRange: 1
+  ConsumeSearchRange: 10
+  ConsumeSearchInterval: 10
+  ConsumeAnimation: 'Jump'
+  TamedIdleNearSpawn: true
+Tameable:
+  FeedingDisabled: 
+  TamingDisabled: 
+  FedDuration: 600
+  TamingTime: 1200
+  Commandable: true
+  PetCommandText: '$OTAB_command_nudge'
+  PetAnswerText: '$OTAB_pet_answer_fuling'
+  RequireGlobalKey: 

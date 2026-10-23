@@ -1,0 +1,41 @@
+Clone:
+  From: AsksvinEgg
+  VisualFrom: 
+  Name: $OTAB_item_neck_egg
+  Description: $OTAB_item_neck_egg_description
+  ItemType: Misc
+  Scale: 0.45
+  Weight: 1
+  Teleportable: true
+  CustomIcon: 'OTAB_NeckEgg'
+  ItemHueShift: 
+  ItemSaturationShift: 
+  ItemBrightnessShift: 
+  LightsHueShift: 
+  LightsSaturationShift: 
+  LightsScale: 
+  AttachedSprite: 
+  AttachedSpriteScale: 
+  AttachedSpriteOffset:
+Item:
+  MaxStackSize: 20
+  MaxQuality: 3
+  ScaleByQuality: 
+  ScaleWeightByQuality: 
+Floating:
+  WaterLevelOffset: 0.66
+EggGrow:
+  GrowTime: 1800
+  UpdateInterval: 5
+  RequireNearbyFire: false
+  RequireUnderRoof: false
+  RequireCoverPercentige: 0
+  RequireAnyBiome: 
+  RequireLiquid: Water
+  RequireGlobalKey:
+  Grown:
+    - Prefab: OTAB_Neck_hatchling
+      RequireGlobalKey: 
+      Weight: 1
+      Tamed: true
+      ShowHatchEffect: true

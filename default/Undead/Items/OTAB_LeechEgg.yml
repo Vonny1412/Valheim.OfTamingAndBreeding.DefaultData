@@ -1,0 +1,41 @@
+Clone:
+  From: AsksvinEgg
+  VisualFrom: 
+  Name: $OTAB_item_leech_egg
+  Description: $OTAB_item_leech_egg_description
+  ItemType: Misc
+  Scale: 0.4
+  Weight: 1
+  Teleportable: true
+  CustomIcon: 
+  ItemHueShift: 0.83
+  ItemSaturationShift: 1.00
+  ItemBrightnessShift: -0.20
+  LightsHueShift: 
+  LightsSaturationShift: 
+  LightsScale: 
+  AttachedSprite: 
+  AttachedSpriteScale: 
+  AttachedSpriteOffset:
+Item:
+  MaxStackSize: 20
+  MaxQuality: 3
+  ScaleByQuality: 
+  ScaleWeightByQuality: 
+Floating:
+  WaterLevelOffset: 0.66
+EggGrow:
+  GrowTime: 1800
+  UpdateInterval: 5
+  RequireNearbyFire: false
+  RequireUnderRoof: false
+  RequireCoverPercentige: 0
+  RequireAnyBiome: 
+  RequireLiquid: Water
+  RequireGlobalKey:
+  Grown:
+    - Prefab: OTAB_Leech_spawn
+      RequireGlobalKey: 
+      Weight: 1
+      Tamed: true
+      ShowHatchEffect: true

@@ -1,0 +1,49 @@
+Character:
+  Group: 'mistbug'
+  GroupWhenTamed:
+  FactionWhenTamed: #MistlandsMonsters
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+MonsterAI:
+  ConsumeItems: 
+    - Prefab: OTAB_TickExudate
+      FedDurationFactor: 1
+  ConsumeRandomItem:
+  ConsumeRange: 3.5
+  ConsumeSearchRange: 100
+  ConsumeSearchInterval: 60
+  ConsumeAnimation: 'Attack Shake'
+  TamedIdleNearSpawn: true
+Tameable:
+  FeedingDisabled: 
+  TamingDisabled: 
+  FedDuration: 180
+  TamingTime: 1800
+  Commandable: false
+  PetCommandText: 
+  PetAnswerText: 
+  RequireGlobalKey: 
+Procreation:
+  UpdateInterval: 60
+  TotalCheckRange: 0              # self breeding
+  Partner:                        # self breeding
+  PartnerCheckRange:              # self breeding
+  RequiredLovePoints: 3
+  PregnancyChance: 0.5
+  PregnancyDuration: 0            # instant due
+  SpawnOffset: 0
+  SpawnOffsetMax: 0
+  SpawnRandomDirection: false
+  ProcreateWhileSwimming: false
+  MaxCreatures: 0
+  MaxCreaturesCountPrefabs: 
+  Offspring:
+    - Prefab: OTAB_TickEgg
+      Weight: 1
+      NeedPartner: false         # self breeding
+      NeedPartnerPrefab: 
+      InheritTame: true

@@ -1,0 +1,26 @@
+Clone:
+  From: Guck
+  VisualFrom: 
+  Name: $OTAB_item_tick_exudate
+  Description: $OTAB_item_tick_exudate_description
+  ItemType: Misc
+  Scale: 0.75
+  Weight: 1
+  Teleportable: true
+  CustomIcon: 
+  ItemHueShift: 0.51
+  ItemSaturationShift: 0.09
+  ItemBrightnessShift: -0.13
+  LightsHueShift: 
+  LightsSaturationShift: 
+  LightsScale: 
+  AttachedSprite: 
+  AttachedSpriteScale: 
+  AttachedSpriteOffset:
+Item:
+  MaxStackSize: 20
+  MaxQuality: 1
+  ScaleByQuality: 
+  ScaleWeightByQuality: 
+Floating:
+  WaterLevelOffset: 0.66

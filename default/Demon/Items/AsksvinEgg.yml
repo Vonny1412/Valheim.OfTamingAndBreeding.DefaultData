@@ -1,0 +1,20 @@
+Item: 
+  MaxStackSize:
+  MaxQuality: 3
+  ScaleByQuality:
+  ScaleWeightByQuality:
+EggGrow:
+  GrowTime: 1800
+  UpdateInterval: 5
+  RequireNearbyFire: true
+  RequireUnderRoof: false # like vanilla
+  RequireCoverPercentige: 0.7
+  RequireAnyBiome: 
+  RequireLiquid: 
+  RequireGlobalKey:
+  Grown:
+    - Prefab: Asksvin_hatchling
+      RequireGlobalKey: 
+      Weight: 1
+      Tamed: true
+      ShowHatchEffect: true

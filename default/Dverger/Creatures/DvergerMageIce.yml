@@ -1,0 +1,39 @@
+Character:
+  Group: 'dverger'
+  GroupWhenTamed:
+  FactionWhenTamed: #Dverger
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Never
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+MonsterAI:
+  ConsumeItems:
+    - Prefab: MeadTasty
+      FedDurationFactor: 0.33
+    - Prefab: Salad
+      FedDurationFactor: 0.66
+    - Prefab: MeadEitrMinor
+      FedDurationFactor: 1
+    - Prefab: MushroomOmelette
+      FedDurationFactor: 1
+    - Prefab: FishAndBread
+      FedDurationFactor: 2
+    - Prefab: YggdrasilPorridge
+      FedDurationFactor: 3
+  ConsumeRandomItem:
+  ConsumeRange: 1
+  ConsumeSearchRange: 10
+  ConsumeSearchInterval: 10
+  ConsumeAnimation: 
+  TamedIdleNearSpawn: true
+Tameable:
+  FeedingDisabled: 
+  TamingDisabled: 
+  FedDuration: 600
+  TamingTime: 1800
+  Commandable: true
+  PetCommandText: $OTAB_command_nudge
+  PetAnswerText: $OTAB_pet_answer_dvergr
+  RequireGlobalKey:

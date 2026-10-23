@@ -1,0 +1,27 @@
+Character:
+  Group: 'abomination'
+  GroupWhenTamed:
+  FactionWhenTamed: #Undead
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+MonsterAI:
+  ConsumeItems: []
+  ConsumeRandomItem:
+  ConsumeRange: 4
+  ConsumeSearchRange: 20
+  ConsumeSearchInterval: 60
+  ConsumeAnimation: 'Attack Ground Slam'
+  TamedIdleNearSpawn: 
+Tameable:
+  FeedingDisabled: true
+  TamingDisabled: true
+  FedDuration: 
+  TamingTime: 
+  Commandable: false
+  PetCommandText: 
+  PetAnswerText: 
+  RequireGlobalKey:

@@ -1,0 +1,40 @@
+Clone:
+  From: DragonEgg
+  VisualFrom: 
+  Name: $OTAB_item_serpent_egg
+  Description: $OTAB_item_serpent_egg_description
+  ItemType: Misc
+  Scale: 1
+  Weight: 200
+  Teleportable: true
+  CustomIcon: 
+  ItemHueShift: -0.45
+  ItemSaturationShift: 0.13
+  ItemBrightnessShift: -0.11
+  LightsHueShift: -0.45
+  LightsSaturationShift: 0.00
+  AttachedSprite: 
+  AttachedSpriteScale: 
+  AttachedSpriteOffset:
+Item:
+  MaxStackSize: 1
+  MaxQuality: 1
+  ScaleByQuality: 
+  ScaleWeightByQuality: 
+Floating:
+  WaterLevelOffset: 0.66
+EggGrow:
+  GrowTime: 3600
+  UpdateInterval: 5
+  RequireNearbyFire: false
+  RequireUnderRoof: false
+  RequireCoverPercentige: 0
+  RequireAnyBiome: 
+  RequireLiquid: Water
+  RequireGlobalKey:
+  Grown:
+    - Prefab: OTAB_Serpent_spawn
+      RequireGlobalKey: 
+      Weight: 1
+      Tamed: true
+      ShowHatchEffect: true

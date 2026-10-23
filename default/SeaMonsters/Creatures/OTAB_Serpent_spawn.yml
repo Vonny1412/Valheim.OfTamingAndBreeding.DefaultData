@@ -1,0 +1,41 @@
+Clone:
+  From: Serpent
+  Name: $OTAB_enemy_serpent_spawn
+  RemoveMonsterAI: false
+  Scale: 0.5
+  RemoveEffects: 
+Character:
+  Group: 'serpent'
+  GroupWhenTamed:
+  FactionWhenTamed: #SeaMonsters
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+MonsterAI:
+  ConsumeItems: []
+  ConsumeRandomItem:
+  ConsumeRange: 
+  ConsumeSearchRange: 
+  ConsumeSearchInterval: 
+  ConsumeAnimation: 
+  TamedIdleNearSpawn: true
+Tameable:
+  FeedingDisabled: true
+  TamingDisabled: true
+  FedDuration: 
+  TamingTime: 
+  Commandable: false
+  PetCommandText: 
+  PetAnswerText: 
+  RequireGlobalKey:
+Growup:
+  GrowTime: 3600
+  InheritTame: true
+  RequireFeeding: 
+  RequireGlobalKey:
+  Grown:
+    - Prefab: Serpent
+      Weight: 1

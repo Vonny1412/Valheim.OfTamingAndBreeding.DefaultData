@@ -1,0 +1,11 @@
+Item: OTAB_RitualTrophyCharredTwitcher
+Amount: 1
+CraftingStation: piece_workbench
+MinStationLevel: 1
+Requirements:
+  - Prefab: Charredskull
+    Amount: 1
+    AmountPerLevel: 1
+  - Prefab: CharredBone
+    Amount: 5
+    AmountPerLevel: 5

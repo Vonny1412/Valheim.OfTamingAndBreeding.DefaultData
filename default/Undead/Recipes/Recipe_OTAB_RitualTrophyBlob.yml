@@ -1,0 +1,11 @@
+Item: OTAB_RitualTrophyBlob
+Amount: 1
+CraftingStation: piece_workbench
+MinStationLevel: 1
+Requirements:
+  - Prefab: TrophyBlob
+    Amount: 1
+    AmountPerLevel: 0
+  - Prefab: Ooze
+    Amount: 10
+    AmountPerLevel: 0

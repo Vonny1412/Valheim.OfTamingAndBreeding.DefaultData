@@ -1,0 +1,26 @@
+Language: German
+Translations:
+  OTAB_enemy_bat_swamp_pup: Fledermausjunges
+  OTAB_enemy_leech_spawn: Schlundegel-Brut
+  OTAB_item_leech_egg: Schlundegel-Ei
+  OTAB_item_leech_egg_description: Ein glitschiges, blutgetränktes Ei.
+  OTAB_item_leech_cave_egg: Frostiges Schlundegel-Ei
+  OTAB_item_leech_cave_egg_description: Ein glitschiges Ei, das sich kalt anfühlt.
+  OTAB_item_ritual_trophy_draugr: Erwachendes Haupt
+  OTAB_item_ritual_trophy_draugr_description: Du hast das Flüstern der Fesselung vorgezogen.
+  OTAB_item_ritual_trophy_draugr_elite: Erwachende Grimasse
+  OTAB_item_ritual_trophy_draugr_elite_description: Die leuchtend roten Augen folgen unsichtbaren Regungen in der Dunkelheit.
+  OTAB_item_ritual_trophy_ghost: Erwachender Geisterschädel
+  OTAB_item_ritual_trophy_ghost_description: Das Flüstern wird mit jedem Augenblick deutlicher.
+  OTAB_item_ritual_trophy_skeleton_poison: Erwachender Modernder Schädel
+  OTAB_item_ritual_trophy_skeleton_poison_description: Noch immer ranzig und verfault. Was erwartest du von ihm?
+  OTAB_item_ritual_trophy_unbjorn: Erwachendes Aas
+  OTAB_item_ritual_trophy_unbjorn_description: Fliegen lösen sich aus seinem Fell, als sich das Aas regt.
+  OTAB_item_ritual_trophy_wraith: Erwachender Schleier
+  OTAB_item_ritual_trophy_wraith_description: Ein leises Kettenrasseln regt sich im Innern des Schleiers.
+  OTAB_item_ritual_trophy_blob: Erwachender Schleim
+  OTAB_item_ritual_trophy_blob_description: Der stinkende Klumpen hat begonnen zu zittern.
+  OTAB_item_ritual_trophy_blobelite: Erwachende Schleimmasse
+  OTAB_item_ritual_trophy_blobelite_description: Zwei unruhige Schleimmassen haften aneinander.
+  OTAB_item_ritual_trophy_blobtar: Erwachender Teer
+  OTAB_item_ritual_trophy_blobtar_description: Die schwarze, klebrige Masse hat begonnen, sich zu bewegen.

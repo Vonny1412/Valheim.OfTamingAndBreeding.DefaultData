@@ -1,0 +1,47 @@
+Clone:
+  From: TrophyWraith
+  VisualFrom: 
+  Name: $OTAB_item_ritual_trophy_wraith
+  Description: $OTAB_item_ritual_trophy_wraith_description
+  ItemType: Misc
+  Scale: 1
+  Weight: 10
+  Teleportable: true
+  CustomIcon: 'OTAB_RitualTrophyWraith'
+  ItemHueShift: 
+  ItemSaturationShift: 
+  ItemBrightnessShift: 
+  LightsHueShift: 
+  LightsSaturationShift: 
+  LightsScale: 
+  AttachedSprite: 'OTAB_RitualSymbol'
+  AttachedSpriteScale: 3
+  AttachedSpriteOffset:
+    X: 0
+    Y: 0.02
+    Z: -1
+Item:
+  MaxStackSize: 1
+  MaxQuality: 1
+  ScaleByQuality: 
+  ScaleWeightByQuality: 1.0
+EggGrow:
+  GrowTime: 0
+  UpdateInterval: 5
+  RequireNearbyFire: false
+  RequireUnderRoof: false
+  RequireCoverPercentige: 0
+  RequireAnyBiome: 
+  RequireLiquid: 
+  RequireGlobalKey: 
+  Grown:
+    - Prefab: OTAB_RitualTrophyWraith
+      RequireGlobalKey: 
+      Weight: 99
+      Tamed: true
+      ShowHatchEffect: false
+    - Prefab: Wraith
+      RequireGlobalKey: 
+      Weight: 1
+      Tamed: true
+      ShowHatchEffect: true

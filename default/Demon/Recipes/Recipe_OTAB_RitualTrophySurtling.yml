@@ -1,0 +1,14 @@
+Item: OTAB_RitualTrophySurtling
+Amount: 1
+CraftingStation: piece_workbench
+MinStationLevel: 1
+Requirements:
+  - Prefab: TrophySurtling
+    Amount: 1
+    AmountPerLevel: 1
+  - Prefab: SurtlingCore
+    Amount: 1
+    AmountPerLevel: 2
+  - Prefab: Coal
+    Amount: 5
+    AmountPerLevel: 5

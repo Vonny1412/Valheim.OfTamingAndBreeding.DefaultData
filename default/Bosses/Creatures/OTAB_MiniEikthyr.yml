@@ -1,0 +1,35 @@
+Clone:
+  From: Eikthyr
+  Name: $OTAB_enemy_MiniEikthyr
+  RemoveMonsterAI: false
+  Scale: 0.66
+  RemoveEffects: 
+    - 'BloodDrops'
+    #- 'Sparcs'
+    - 'Point light (1)'
+Character:
+  Group: ''
+  GroupWhenTamed:
+  FactionWhenTamed: #Boss
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Never
+  TamedVersusTamed: Never
+  TamedVersusWild: Never
+  TameSpawnedOnDeath: 
+MonsterAI:
+  ConsumeItems: []
+  ConsumeRandomItem:
+  ConsumeRange: 
+  ConsumeSearchRange: 
+  ConsumeSearchInterval: 
+  TamedIdleNearSpawn: true
+Tameable:
+  FeedingDisabled: true
+  TamingDisabled: true
+  FedDuration: 
+  TamingTime: 
+  Commandable: true
+  PetCommandText: $OTAB_command_touch
+  PetAnswerText: $OTAB_pet_answer_eikthyr
+  RequireGlobalKey:

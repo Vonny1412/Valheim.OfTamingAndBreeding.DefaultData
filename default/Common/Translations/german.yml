@@ -1,0 +1,16 @@
+Language: German
+Translations:
+  OTAB_key_Season_Fall: "Herbst"
+  OTAB_key_Season_Spring: "Frühling"
+  OTAB_key_Season_Summer: "Sommer"
+  OTAB_key_Season_Winter: "Winter"
+  OTAB_key_defeated_eikthyr: "Eikthyr besiegt"
+  OTAB_key_defeated_dragon: "Moder besiegt"
+  OTAB_key_defeated_goblinking: "Yagluth besiegt"
+  OTAB_key_defeated_gdking: "Der Uralte besiegt"
+  OTAB_key_defeated_bonemass: "Bonemass besiegt"
+  OTAB_key_defeated_queen: "Die Königin besiegt"
+  OTAB_key_defeated_fader: "Fader besiegt"
+  OTAB_command_nudge: Stupsen
+  OTAB_command_pat: Tätscheln
+  OTAB_command_touch: Berühren

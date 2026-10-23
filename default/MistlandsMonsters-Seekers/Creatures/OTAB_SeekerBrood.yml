@@ -1,0 +1,35 @@
+Clone:
+  From: SeekerBrood
+  Name: 
+  RemoveMonsterAI: false
+  Scale: 
+  RemoveEffects: 
+Character:
+  Group: 'mistbug'
+  GroupWhenTamed:
+  FactionWhenTamed: #MistlandsMonsters
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+Tameable:
+  FeedingDisabled: true
+  TamingDisabled: true
+  FedDuration: 
+  TamingTime: 
+  Commandable: false
+  PetCommandText: 
+  PetAnswerText: 
+  RequireGlobalKey: 
+Growup:
+  GrowTime: 1800
+  InheritTame: true
+  RequireFeeding: 
+  RequireGlobalKey:
+  Grown:
+    - Prefab: Seeker
+      Weight: 9
+    - Prefab: SeekerBrute
+      Weight: 1

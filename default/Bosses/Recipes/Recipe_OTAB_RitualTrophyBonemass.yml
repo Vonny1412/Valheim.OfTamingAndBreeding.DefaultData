@@ -1,0 +1,11 @@
+Item: OTAB_RitualTrophyBonemass
+Amount: 1
+CraftingStation: piece_workbench
+MinStationLevel: 1
+Requirements:
+  - Prefab: TrophyBonemass
+    Amount: 1
+    AmountPerLevel: 0
+  - Prefab: WitheredBone
+    Amount: 10
+    AmountPerLevel: 0

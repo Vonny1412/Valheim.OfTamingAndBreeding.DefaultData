@@ -1,0 +1,20 @@
+Item: 
+  MaxStackSize:
+  MaxQuality: 1
+  ScaleByQuality:
+  ScaleWeightByQuality:
+EggGrow:
+  GrowTime: 1800
+  UpdateInterval: 5
+  RequireNearbyFire: true
+  RequireUnderRoof: false
+  RequireCoverPercentige: 0.7
+  RequireAnyBiome: 
+  RequireLiquid: 
+  RequireGlobalKey:
+  Grown:
+    - Prefab: OTAB_Volture_chick
+      RequireGlobalKey: 
+      Weight: 1
+      Tamed: true
+      ShowHatchEffect: true

@@ -1,0 +1,14 @@
+Item: OTAB_RitualTrophyMorgen
+Amount: 1
+CraftingStation: piece_workbench
+MinStationLevel: 1
+Requirements:
+  - Prefab: TrophyMorgen
+    Amount: 1
+    AmountPerLevel: 1
+  - Prefab: MorgenSinew
+    Amount: 5
+    AmountPerLevel: 10
+  - Prefab: MorgenHeart
+    Amount: 5
+    AmountPerLevel: 10

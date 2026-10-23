@@ -1,0 +1,41 @@
+Clone:
+  From: ChickenEgg
+  VisualFrom: 
+  Name: $OTAB_item_deathsquito_egg
+  Description: $OTAB_item_deathsquito_egg_description
+  ItemType: Misc
+  Scale: 0.5
+  Weight: 0.1
+  Teleportable: true
+  CustomIcon: 'OTAB_DeathsquitoEgg'
+  ItemHueShift: 0.10
+  ItemSaturationShift: 0.87
+  ItemBrightnessShift: 0.19
+  LightsHueShift: 
+  LightsSaturationShift: 
+  LightsScale: 
+  AttachedSprite: 
+  AttachedSpriteScale: 
+  AttachedSpriteOffset:
+Item:
+  MaxStackSize: 50
+  MaxQuality: 1
+  ScaleByQuality: 
+  ScaleWeightByQuality: 
+Floating:
+  WaterLevelOffset: 0.66
+EggGrow:
+  GrowTime: 1800
+  UpdateInterval: 5
+  RequireNearbyFire: false
+  RequireUnderRoof: false
+  RequireCoverPercentige: 0.7
+  RequireAnyBiome: 
+  RequireLiquid: 
+  RequireGlobalKey:
+  Grown:
+    - Prefab: Deathsquito
+      RequireGlobalKey: 
+      Weight: 1
+      Tamed: true
+      ShowHatchEffect: true

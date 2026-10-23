@@ -1,0 +1,35 @@
+Character:
+  Group: 'bjorn'
+  GroupWhenTamed:
+  FactionWhenTamed: Undead #PlainsMonsters
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+MonsterAI:
+  ConsumeItems: 
+    - Prefab: QueenBee
+      FedDurationFactor: 0
+    - Prefab: FishRaw
+      FedDurationFactor: 0
+    - Prefab: Honey
+      FedDurationFactor: 0
+    - Prefab: Blueberries
+      FedDurationFactor: 0
+  ConsumeRandomItem:
+  ConsumeRange: 4
+  ConsumeSearchRange: 10
+  ConsumeSearchInterval: 10
+  ConsumeAnimation: 
+  TamedIdleNearSpawn: true
+Tameable:
+  FeedingDisabled: true
+  TamingDisabled: true
+  FedDuration: 
+  TamingTime: 
+  Commandable: false
+  PetCommandText: 
+  PetAnswerText: 
+  RequireGlobalKey:

@@ -1,0 +1,11 @@
+Item: OTAB_RitualTrophySkeletonPoison
+Amount: 1
+CraftingStation: piece_workbench
+MinStationLevel: 1
+Requirements:
+  - Prefab: TrophySkeletonPoison
+    Amount: 1
+    AmountPerLevel: 1
+  - Prefab: BoneFragments
+    Amount: 5
+    AmountPerLevel: 10

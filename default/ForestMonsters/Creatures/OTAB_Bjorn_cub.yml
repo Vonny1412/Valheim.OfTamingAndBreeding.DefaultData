@@ -1,0 +1,33 @@
+Clone:
+  From: Bjorn
+  Name: $OTAB_enemy_bjorn_cub
+  RemoveMonsterAI: true
+  Scale: 0.5
+  RemoveEffects: 
+Character:
+  Group: 'bjorn'
+  GroupWhenTamed:
+  FactionWhenTamed: #ForestMonsters
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+Tameable:
+  FeedingDisabled: true
+  TamingDisabled: true
+  FedDuration: 
+  TamingTime: 
+  Commandable: false
+  PetCommandText: 
+  PetAnswerText: 
+  RequireGlobalKey:
+Growup:
+  GrowTime: 6000
+  InheritTame: true
+  RequireFeeding:
+  RequireGlobalKey:
+  Grown:
+    - Prefab: Bjorn
+      Weight: 1

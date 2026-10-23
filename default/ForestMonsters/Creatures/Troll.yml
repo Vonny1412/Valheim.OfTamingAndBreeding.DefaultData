@@ -1,0 +1,33 @@
+Character:
+  Group: 'troll'
+  GroupWhenTamed:
+  FactionWhenTamed: #ForestMonsters
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Default
+  TamedVersusTamed: Default
+  TamedVersusWild: Default
+  TameSpawnedOnDeath: 
+MonsterAI:
+  ConsumeItems:
+    - Prefab: Entrails        # "This human keeps bringing me things to eat, therefore I tolerate/follow this human."
+      FedDurationFactor: 1
+    - Prefab: BoneFragments   # "gnaw on the bones of the weak and foolhardy"
+      FedDurationFactor: 0
+    - Prefab: Pukeberries
+      FedDurationFactor: 0
+  ConsumeRandomItem:
+  ConsumeRange: 4
+  ConsumeSearchRange: 20
+  ConsumeSearchInterval: 30
+  ConsumeAnimation: 'Idle_oooh a piece of Candy'
+  TamedIdleNearSpawn: 
+Tameable:
+  FeedingDisabled: 
+  TamingDisabled: 
+  FedDuration: 300
+  TamingTime: 1800
+  Commandable: true
+  PetCommandText: 
+  PetAnswerText: 
+  RequireGlobalKey: 

@@ -1,0 +1,34 @@
+Clone:
+  From: Fader
+  Name: $OTAB_enemy_MiniFader
+  RemoveMonsterAI: false
+  Scale: 0.66
+  RemoveEffects: 
+    #- 'fx_fader_chestfire'
+    #- 'Sparks'
+Character:
+  Group: ''
+  GroupWhenTamed:
+  FactionWhenTamed: #Boss
+  TamedVersusPlayer: Never
+  TamedVersusGroup: Never
+  TamedVersusFaction: Never
+  TamedVersusTamed: Never
+  TamedVersusWild: Never
+  TameSpawnedOnDeath: 
+MonsterAI:
+  ConsumeItems: []
+  ConsumeRandomItem:
+  ConsumeRange: 
+  ConsumeSearchRange: 
+  ConsumeSearchInterval: 
+  TamedIdleNearSpawn: true
+Tameable:
+  FeedingDisabled: true
+  TamingDisabled: true
+  FedDuration: 
+  TamingTime: 
+  Commandable: true
+  PetCommandText: $OTAB_command_touch
+  PetAnswerText: $OTAB_pet_answer_fader
+  RequireGlobalKey:
