@@ -2,7 +2,7 @@ Character:
   Group: 'troll'
   GroupWhenTamed:
   FactionWhenTamed: #ForestMonsters
-  TamedVersusPlayer: Never
+  TamedVersusPlayer: WhenHungry
   TamedVersusGroup: Never
   TamedVersusFaction: Default
   TamedVersusTamed: Default
