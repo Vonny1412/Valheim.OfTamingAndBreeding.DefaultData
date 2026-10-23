@@ -100,6 +100,25 @@ human being from which one originated has somehow been restored or redeemed.
 The creature remains a Greydwarf.
 
 
+WHY THEY CAN BE COMMANDED
+-------------------------
+
+Valheim describes Greydwarfs as soulless beings with nothing on their
+tongues or behind their eyes, created to serve the Elder.
+
+OTAB interprets this servitude as part of their very nature, rather than
+as a conscious choice. A Shaman heals and a Brute protects because these
+are the roles they were given.
+
+Taming may change whom a Greydwarf serves, but not its need to serve.
+The Elder is replaced by the player; the purpose remains.
+
+Perhaps that purpose is what keeps them moving. Perhaps it is also what
+torments them: even freed from the Elder, they are never truly free.
+
+This is an OTAB interpretation, not established Valheim lore.
+
+
 FED AND WILD GREYDWARFS
 -----------------------
 
